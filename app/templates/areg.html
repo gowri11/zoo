@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <h1 style = "color:orangered">Admin Registration Page</h1> 
+        <h2 style = "color:palevioletred">Welcome To Zoo Registration </h2> 
+        <form action = "/adm/" method = 'POST'>
+        {%csrf_token%} 
+        {{form.as_p}}
+        <br>
+        <button type="submit" class="btn btn-default" style ='color:blue'>Register</button>
+        <a href="/alog/">Click Here For LogIn</a>
+        </form>
+        </body>
+</html>

@@ -1,0 +1,11 @@
+<html>
+<body>
+    <h1 style="color:lightgreen;">Admin LOGIN PAGE</h1>
+    <form action = "/alog/" method = 'POST'>
+    {%csrf_token%} 
+    {{form.as_p}}
+    <br>
+    <button type="submit" class="btn btn-default" style ='color:purple'>Login</button>
+    </form>
+    </body>
+</html>
